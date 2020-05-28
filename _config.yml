@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Maximilian Kasy"
+title                    : "James Okun"
 title_separator          : "-"
-name                     : "Maximilian Kasy"
+name                     : "James Okun"
 description:	  > # this means to ignore newlines until "baseurl:"
-  Research on machine learning, experimental design, economic inequality, and optimal policy
-url                      : "https://maxkasy.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/home" # the subpath of your site, e.g. "/blog"
+  I'm a predoctoral research fellow at MIT. I graduted Brown Universty with a Bachelor of Science in Applied Mathematics-Economics and a Bacehlor of Arts in Computer Science in May 2020. 
+url                      : "https://jamesokun.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/jamesokun.github.io" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/files/profilepic.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Maximilian Kasy"
+  name             : "James Okun"
   avatar           : "/files/profilepic.jpg"
-  bio              : "Associate Professor, Department of Economics, Oxford University"
-  location         : "Oxford, UK"
-  email            : "maximilian.kasy@economics.ox.ac.uk"
+  bio              : "Predoctoral Research Fellow at MIT Economics"
+  location         : "Cambridge, MA"
+  email            : "jamescokun@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
