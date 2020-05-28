@@ -126,7 +126,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : maxkasy
+  twitter          : jcokun1
   vine             :
   weibo            :
   xing             :
@@ -135,11 +135,11 @@ author:
 
 # Reading Files
 include:
-  - .htaccess
-  - _pages
-  - _pages/apps
-  - _pages/conference  
-  - _pages/teaching
+#   - .htaccess
+#   - _pages
+#   - _pages/apps
+#   - _pages/conference  
+#   - _pages/teaching
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
