@@ -11,6 +11,7 @@ permalink: /research/
   *[NBER Working Paper 29497, November 2021](/files/Oster_Pandemic_Test_Scores_Updated.pdf)*  
 
 **The Effect of Transparency on Political Behavior: Evidence from the U.S. Congressional Press Galleries**
+  
   *[Manuscript, November 2021](/files/pressgalleries.pdf)*
   
   
