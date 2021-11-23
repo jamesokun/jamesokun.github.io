@@ -134,11 +134,7 @@ author:
 
 # Reading Files
 include:
-#   - .htaccess
-#   - _pages
-#   - _pages/apps
-#   - _pages/conference  
-#   - _pages/teaching
+- _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
