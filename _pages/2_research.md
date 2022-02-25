@@ -6,7 +6,7 @@ permalink: /research/
 ## Working papers
 
 
-**Pandemic Schooling Mode and Student Test Scores: Evidence from U.S. States**  
+**Pandemic Schooling Mode and Student Test Scores: Evidence from U.S. School Districts**  
   (joint with Clare Halloran, Rebecca Jack, and Emily Oster)  
   *[NBER Working Paper 29497, November 2021](/files/Oster_Pandemic_Test_Scores_Updated.pdf)*  
   *[NBER Digest, January 2022](https://www.nber.org/digest-202201/remote-schooling-and-standardized-test-scores)*  
