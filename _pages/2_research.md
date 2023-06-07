@@ -14,9 +14,11 @@ permalink: /research/
   
 ## Work in progress
 
-**Philanthropy and the Determination of Social Priorities (with Simon Essig Aberg)
+**Philanthropy and the Determination of Social Priorities**
+  (with Simon Essig Aberg)
 
-**Evaluating WIC's Procurement of Infant Formula (with Yuci Zhou)
+**Evaluating WIC's Procurement of Infant Formula**
+  (with Yuci Zhou)
 
 ## Other work
 
