@@ -14,11 +14,13 @@ permalink: /research/
   
 ## Work in progress
 
+**Public Procurement in the Presence of Private Market Spillovers: Evidence from WIC**
+  (with Yuci Zhou)
+
 **Philanthropy and the Determination of Social Priorities**
   (with Simon Essig Aberg)
 
-**Evaluating WIC's Procurement of Infant Formula**
-  (with Yuci Zhou)
+
 
 ## Other work
 
