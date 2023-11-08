@@ -20,7 +20,7 @@ title                    : "James Okun"
 title_separator          : "-"
 name                     : "James Okun"
 description:	  > # this means to ignore newlines until "baseurl:"
-  I'm a predoctoral research fellow at MIT. I grauted Brown Universty with a Bachelor of Science in Applied Mathematics-Economics and a Bacehlor of Arts in Computer Science in May 2020. 
+  I am a PhD Student in the Economics Department at MIT. I study industrial organization and public economics. 
 url                      : "https://jamesokun.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/files/profilepic.jpeg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
