@@ -12,12 +12,11 @@ permalink: /research/
 
 ## Working papers
 
-**[Racial Differences in Nursing Home Value Added](/files/PAC_2.pdf)** with Liran Einav, Amy Finkelstein, and Neale Mahoney, submitted
+**[Racial Differences in Nursing Home Value Added](/files/PAC_2.pdf)** with Liran Einav, Amy Finkelstein, and Neale Mahoney, _submitted_
   
 ## Work in progress
 
-**Public Procurement in the Presence of Private Market Spillovers: Evidence from WIC**
-  (with Yuci Zhou)
+**Public Procurement in the Presence of Private Market Spillovers: Evidence from WIC** with Yuci Zhou
 
 ## Other work
 
