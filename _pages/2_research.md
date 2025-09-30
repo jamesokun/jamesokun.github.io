@@ -12,7 +12,7 @@ permalink: /research/
 
 ## Working papers
 
-**Racial Differences in Nursing Home Value Added** with Liran Einav, Amy Finkelstein, and Neale Mahoney, submitted
+**[Racial Differences in Nursing Home Value Added](/files/PAC_2.pdf)** with Liran Einav, Amy Finkelstein, and Neale Mahoney, submitted
   
 ## Work in progress
 
