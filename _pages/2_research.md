@@ -13,7 +13,7 @@ permalink: /research/
 ## Working papers
 
 **[Racial Differences in Nursing Home Value Added](/files/PAC_2.pdf)** with Liran Einav, Amy Finkelstein, and Neale Mahoney, _submitted_ 
-*[NBER Working Paper 34324, October 2025](https://www.nber.org/papers/w34324)* 
+  *[NBER Working Paper 34324, October 2025](https://www.nber.org/papers/w34324)* 
 
   
 ## Work in progress
