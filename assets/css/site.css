@@ -161,6 +161,12 @@ a:hover {
   font-weight: bold;
 }
 
+.cv-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .nav-links {
   margin-top: 0.8rem;
   display: flex;

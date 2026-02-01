@@ -41,7 +41,15 @@
               <span class="email-text">{{ site.author.email }}</span>
             </a>
           {% endif %}
-          <a class="graylinks" href="{{ '/files/cv.pdf' | relative_url }}">CV</a>
+          <a class="graylinks cv-link" href="{{ '/files/cv.pdf' | relative_url }}">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="slategray" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M6 2H14L20 8V22H6V2Z"></path>
+              <path d="M14 2V8H20"></path>
+              <line x1="10" y1="12" x2="16" y2="12"></line>
+              <line x1="10" y1="16" x2="16" y2="16"></line>
+            </svg>
+            <span>CV</span>
+          </a>
           {% if site.author.github %}
             <a class="graylinks" href="https://github.com/{{ site.author.github }}">GitHub</a>
           {% endif %}
