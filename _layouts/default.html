@@ -16,46 +16,54 @@
     <meta name="description" content="{{ site.description | strip_newlines | escape }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
     <script defer data-domain="jamesokun.github.io" src="https://plausible.io/js/script.js"></script>
   </head>
-  <body class="{% if page.url == '/' %}home{% else %}page{% endif %}">
-    <header class="site-header">
-      <div class="site-intro">
-        <h1 class="site-title">
-          <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        </h1>
+  <body>
+    <div class="body">
+      <div class="block" id="left">
+        <h1>{{ site.title }}</h1>
+        <br>
+        {% if site.author.avatar %}
+          <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+        {% endif %}
         {% if site.author.bio %}
-          <p class="site-bio">{{ site.author.bio }}</p>
+          <p>{{ site.author.bio }}</p>
         {% endif %}
         {% if site.author.location %}
-          <p class="site-location">{{ site.author.location }}</p>
+          <p class="muted">{{ site.author.location }}</p>
         {% endif %}
-        <ul class="site-links">
+        <div class="contact-links">
           {% if site.author.email %}
-            <li>Email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            <a href="mailto:{{ site.author.email }}">
+              <span class="email-icon">&#9997;&#xFE0E;</span>
+              <span class="email-text">{{ site.author.email }}</span>
+            </a>
           {% endif %}
           {% if site.author.github %}
-            <li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
+            <a class="graylinks" href="https://github.com/{{ site.author.github }}">GitHub</a>
           {% endif %}
           {% if site.author.twitter %}
-            <li><a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a></li>
+            <a class="graylinks" href="https://twitter.com/{{ site.author.twitter }}">Twitter</a>
           {% endif %}
-        </ul>
-        <nav class="site-nav" aria-label="Main navigation">
-          {% for item in site.data.navigation.main %}
-            {% assign item_url = item.url | relative_url %}
-            <a class="site-nav__link{% if page.url == item.url %} is-active{% endif %}" href="{{ item_url }}">{{ item.title }}</a>
-          {% endfor %}
-        </nav>
+        </div>
+        {% if site.data.navigation.main %}
+          <div class="nav-links">
+            {% for item in site.data.navigation.main %}
+              {% assign item_url = item.url | relative_url %}
+              <a href="{{ item_url }}">{{ item.title }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
-      {% if site.author.avatar %}
-        <img class="site-photo" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
-      {% endif %}
-    </header>
-    <main class="main">
-      {{ content }}
-    </main>
+
+      <div class="block" id="right">
+        {% if page.url != "/" and page.title %}
+          <h2 class="no_top_margin">{{ page.title }}</h2>
+        {% endif %}
+        {{ content }}
+      </div>
+    </div>
   </body>
 </html>
