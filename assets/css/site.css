@@ -137,14 +137,18 @@ a:hover {
   flex-wrap: wrap;
   align-items: center;
   margin-top: -5px;
+  column-gap: 20px;
 }
 
 .contact-links a {
   color: slategray;
   text-decoration: none;
-  margin-right: 20px;
   display: flex;
   align-items: center;
+}
+
+.contact-links .graylinks {
+  margin-left: 0;
 }
 
 .contact-links a:hover .email-text {
