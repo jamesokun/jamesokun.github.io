@@ -161,10 +161,15 @@ a:hover {
   font-weight: bold;
 }
 
-.cv-link {
+.icon-link {
   display: inline-flex;
   align-items: center;
   gap: 5px;
+}
+
+.link-icon {
+  flex-shrink: 0;
+  vertical-align: middle;
 }
 
 .nav-links {
