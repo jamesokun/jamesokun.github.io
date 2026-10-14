@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
 
 *,
 *::before,
@@ -7,8 +7,8 @@
 }
 
 body {
-  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font: 15px/1.6 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Inter", sans-serif;
+  font: 14px/1.5 "Inter", sans-serif;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -19,8 +19,8 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .body {
@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.01em;
 }
 
@@ -110,39 +110,45 @@ a:hover {
   border-radius: 8px;
 }
 
-details.abstract {
-  margin-top: 0.25rem;
+.paper-links {
+  margin: 0;
 }
 
-details.abstract summary {
+.toggle-icon {
   display: inline-block;
-  cursor: pointer;
-  color: #0074d9;
-  font-size: 0.9em;
-  list-style: none;
+  width: 0.7em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  vertical-align: middle;
+  position: relative;
+  top: -1.5px;
 }
 
-details.abstract summary::-webkit-details-marker {
+.expandable-hide {
   display: none;
 }
 
-details.abstract summary::before {
-  content: "\25B8\00a0";
+.expandable-show {
+  display: block;
 }
 
-details.abstract[open] summary::before {
-  content: "\25BE\00a0";
+.abstract-content {
+  color: black;
+  margin-top: 0;
+  padding: 2px;
+  margin-left: 20px;
+  line-height: 140%;
 }
 
-details.abstract summary:hover {
-  text-decoration: underline;
+.press-coverage-list {
+  margin: 0 0 0 20px;
+  padding: 2px 0 2px 20px;
+  line-height: 1.6;
 }
 
-details.abstract p {
-  margin: 0.4rem 0 0 0;
-  font-size: 0.9em;
-  line-height: 1.5;
-  color: #444;
+.press-coverage-list li {
+  padding-left: 0;
 }
 
 .graylinks {
