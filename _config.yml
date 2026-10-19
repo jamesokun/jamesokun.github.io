@@ -20,10 +20,10 @@ title                    : "James Okun"
 title_separator          : "-"
 name                     : "James Okun"
 description:	  > # this means to ignore newlines until "baseurl:"
-  I am a PhD student in the Economics Department at MIT. I study industrial organization and public economics. 
+  I'm a PhD candidate in economics at MIT. I study industrial organization and public economics, using empirical work to understand how to design policy in markets with externalities and asymmetric information.
 url                      : "https://jamesokun.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/files/profilepic.jpeg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/files/headshot.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -82,7 +82,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/files/profilepic.jpeg" # Open Graph/Twitter default site image
+og_image                 : "/files/headshot.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

@@ -14,6 +14,28 @@
       {% endif %}
     </title>
     <meta name="description" content="{{ site.description | strip_newlines | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description | strip_newlines | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ site.og_image | absolute_url }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="{{ site.og_image | absolute_url }}">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "{{ site.author.name }}",
+        "url": "{{ site.url }}",
+        "image": "{{ site.og_image | absolute_url }}",
+        "description": {{ site.description | strip_newlines | strip | jsonify }},
+        "jobTitle": "PhD Candidate in Economics",
+        "affiliation": { "@type": "CollegeOrUniversity", "name": "Massachusetts Institute of Technology" },
+        "email": "mailto:{{ site.author.email }}",
+        "sameAs": ["https://github.com/{{ site.author.github }}"]
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
