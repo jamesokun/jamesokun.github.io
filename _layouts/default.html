@@ -14,6 +14,7 @@
       {% endif %}
     </title>
     <meta name="description" content="{{ site.description | strip_newlines | escape }}">
+    <meta name="robots" content="max-image-preview:none">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <meta property="og:type" content="profile">
     <meta property="og:title" content="{{ site.title }}">
@@ -28,7 +29,6 @@
         "@type": "Person",
         "name": "{{ site.author.name }}",
         "url": "{{ site.url }}",
-        "image": "{{ site.og_image | absolute_url }}",
         "description": {{ site.description | strip_newlines | strip | jsonify }},
         "jobTitle": "PhD Candidate in Economics",
         "affiliation": { "@type": "CollegeOrUniversity", "name": "Massachusetts Institute of Technology" },

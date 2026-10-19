@@ -1,0 +1,6 @@
+# Keep the headshot out of Google Images and image search results.
+User-agent: Googlebot-Image
+Disallow: /files/headshot.jpg
+
+User-agent: *
+Allow: /
