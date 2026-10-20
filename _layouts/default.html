@@ -40,7 +40,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-    <script defer data-domain="jamesokun.com" src="https://plausible.io/js/script.js"></script>
+    {% if site.goatcounter %}
+    <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script defer src="{{ '/assets/js/track-downloads.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    {% endif %}
     <script defer src="{{ '/assets/js/expandable.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   </head>
   <body>
